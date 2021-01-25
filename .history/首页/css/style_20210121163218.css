@@ -1,0 +1,50 @@
+/* 头部 */
+#head{
+    width:1540px;
+    height:130px;
+    background:skyblue;
+}
+#head-con{
+    width:1300px;
+    height:130px;
+    margin: 0 auto;
+    background: pink
+}
+#head-top{
+    height:30px;
+}
+#head-info{
+    height:100px;
+    background: #0e0e0f;  
+}
+#head-info img{
+    margin:10px 30px 0 10px
+}
+#head-info input{
+    outline: none;
+    width:240px;
+    height:40px;
+    border-radius: 20px;
+    background: #242424 url(../img/xuebi1.png) -35px -220px;
+    border: none
+}
+/* 导航 */
+#nav{
+    width:1540px;
+    height:60px;
+    background:palegoldenrod;
+    border-top:2px solid #191919
+}
+#nav-con{
+    width:1300px;
+    height:60px;
+    margin: 0 auto;
+    background: #0e0e0f;  
+}
+/* 轮播图 */
+#banner{
+    width:1540px;
+    height:420px;
+     
+}
+

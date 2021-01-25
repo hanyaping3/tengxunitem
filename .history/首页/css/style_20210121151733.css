@@ -1,0 +1,10 @@
+#head{
+    width:1520px;
+    height:230px;
+    background:skyblue;
+}
+#head-con{
+    width:1240px;
+    height:230px;
+    margin: 0 auto
+}

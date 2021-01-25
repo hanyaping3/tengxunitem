@@ -1,0 +1,221 @@
+/* 头部 */
+#head{
+    width:100%;
+    height:130px;
+    background:skyblue;
+}
+#head-con{
+    width:1300px;
+    height:130px;
+    margin: 0 auto;
+    background: pink
+}
+#head-top{
+    height:30px;
+}
+#head-info{
+    height:100px;
+    background: #0e0e0f;
+    position: relative;  
+}
+#head-info img{
+    margin:10px 30px 0 10px
+}
+#head-info #search{
+    width:240px;
+    height:40px;
+    border-radius: 20px;
+    position: absolute;
+    right:260px;
+    top:35px;
+    display: inline-block
+}
+#head-info input{
+    outline: none;
+    width:240px;
+    height:40px;
+    border-radius: 20px; 
+    background: #242424 ;
+    border: none;
+    text-indent: 50px;
+    color: #fff
+}
+#head-info .icon-s{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    background: url(../img/xuebi1.png) -32px -220px;
+    position: absolute;
+    margin-left:10px
+   
+}
+
+
+#head-info .icon-d{
+    width:25px;
+    height:25px;
+    display: inline-block;
+    background: url(../img/xuebi1.png) 2px -275px;
+    margin-right:5px
+}
+#head-info .icon-g{
+    width:25px;
+    height:25px;
+    display: inline-block;
+    background: url(../img/xuebi1.png) -3px -61px;
+    margin-right:5px
+}
+#denglu,#gouwu{
+    display: inline-block;
+    height:30px;
+    color: #fff;
+    position: absolute;
+    top:38px;
+}
+#denglu a,#gouwu a{
+    font-size: 16px;
+    color: #fff;
+}
+#denglu{
+    right:116px;
+}
+#gouwu{
+    right:5px
+}
+
+
+
+
+/* 导航 */
+#nav{
+    width:100%;
+    height:60px;
+    background:palegoldenrod;
+    border-top:2px solid #191919;
+    position: relative
+}
+#nav-con{
+    width:1300px;
+    height:60px;
+    margin: 0 auto;
+    background: #0e0e0f;  
+}
+#nav-con>ul li{
+    float: left;
+    font-size: 16px;
+    color: #9c9d98;
+    padding: 17px 35px;
+}
+#nav-con>ul li:hover{
+    border-bottom: 5px solid #DAA520
+}
+
+#nav-con span{
+    font-size: 16px;
+    line-height: 58px;
+    color: #fff;
+    float:right;
+    cursor: pointer;
+}
+#nav-con .subicon-change{
+    width:12px;
+    height:14px;
+    display: inline-block;
+    margin:0 10px;
+    background: url(../img/xuebi1.png) -100px -2px; 
+}
+
+/* 隐藏的菜单栏 */
+#sub-nav{
+    position: absolute;
+    top:60px;
+    width:100%;
+    height:295px;
+    background: #DAA520;
+    display: none;
+    z-index: 999
+}
+#sub-nav ol{
+    width:620px;
+    margin:0 auto
+}
+#sub-nav>ol>li{
+    float: left;
+    padding: 0 10px;
+    text-align: center
+}
+#sub-nav>ol>li img{
+    padding: 25px 0
+}
+#sub-nav>ol>li p{
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 14px;
+    border-bottom: 5px solid #e3e3e3;
+    margin-bottom: 14px;
+}
+#sub-nav ul li{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+
+ 
+
+/* 轮播图 */
+#banner{
+    width:100%;
+    height:415px;
+    background: #9c9d98;
+    overflow: hidden;
+    position: relative;  
+}
+#imgwrap{
+    width:99999px
+}
+#imgwrap img{
+    width:1540px;
+}
+#banner ul li {
+    float: left;
+}
+
+#banner .show {
+    display: block
+}
+#dofather {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+#dofather li {
+    width: 36px;
+    height: 5px;
+    background:rgba(226, 222, 222, 0.945);
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#banner .focus{background: #DAA520;} 
+/* 内容区域 */
+#product{
+    width:100%;
+    height:2210px;
+    background: #f5f5f5;
+    /* position: relative; */
+}
+#product-con{
+    width:1300px;
+    height:2240px;
+    background:#fff;
+    margin:-30px auto;
+    position: absolute;
+    top:-30px
+
+}
+
+

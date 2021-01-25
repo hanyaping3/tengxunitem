@@ -1,0 +1,19 @@
+#head{
+    width:1540px;
+    height:130px;
+    background:skyblue;
+}
+#head-con{
+    width:1240px;
+    height:130px;
+    margin: 0 auto;
+    background: pink
+}
+#head-top{
+    height:30px;
+}
+#head-info{
+    height:100px;
+    background: #0e0e0f
+}
+
