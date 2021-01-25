@@ -168,119 +168,23 @@
     line-height: 30px;
 }
 
-
-
+/* 中间内容区域 */
+#content{
+    width:100%;
+    height:1525px;
+    background: #f5f5f5;
+}
+#content-con{
+    width: 1300px;
+    height:1525px;
+    background: #fff;
+    margin:0 auto
+}
+#content-top a{
+    col
+}
  
 
-/* 轮播图 */
-#banner{
-    width:100%;
-    height:415px;
-    background: #9c9d98;
-    overflow: hidden;
-    position: relative;  
-}
-#imgwrap{
-    width:99999px
-}
-#imgwrap img{
-    width:1540px;
-}
-#banner ul li {
-    float: left;
-}
-
-#banner .show {
-    display: block
-}
-#dofather {
-    position: absolute;
-    bottom: 45px;
-    left: 50%;
-    transform: translate(-50%, 0)
-}
-
-#dofather li {
-    width: 29px;
-    height: 4px;
-    background:rgba(226, 222, 222, 0.945);
-    float: left;
-    margin-right: 10px;
-    cursor: pointer;
-}
-#banner .focus{background: #DAA520;} 
-/* 内容区域 */
-#product{
-    width:100%;
-    height:2240px;
-    background: #f5f5f5;
-    position: relative;
-}
-#product-con{
-    width:1300px;
-    height:2240px;
-    background:#fff;
-    position: absolute;
-    top:-30px;
-    border-radius: 5px;
-    left:50%;
-    transform: translate(-50%,0)
-}
-#product-con>div{
-    width:1180px;
-    height:700px;
-    /* background:skyblue; */
-    margin:0 auto;
-    margin-top:30px
-   
-}
-
-#product-con p .text1{
-    font-size:28px;
-    line-height:72px;
-    font-weight:bolder
-
-}
-#product-con p .text2{
-    font-size:14px;
-    margin-left:20px
-}
-#product-con p .text3{
-   float: right;
-   padding-right: 30px;
-   line-height:72px;
-   background: url(../../img/更多.png) no-repeat right;
-   cursor: pointer;
-}
-#product-con ul{
-    margin-top:20px;
-    
-}
-#product-con ul li{
-    float:left;
-    text-align:center;
-    margin-right:25px;
-    border:1px solid #bbb;
-    overflow: hidden;
-    cursor: pointer;
-}
-/* 添加滑动效果 */
-#product-con ul li:hover{
-    transform: translate3d(0, -2px, 0);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-}
-
-#product-con ul img{
-    width:274px;
-    height:273px;
-    margin-bottom:20px;
-  
-}
-#product-con ul h6{
-    color:red;
-    font-size:14px;
-    padding:10px 0 20px 0;
-}
 /* 底部区域 */
 #bottom{
     width:100%;
